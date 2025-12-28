@@ -69,7 +69,7 @@ Contexto Global: gestión del estado del carrito.
 
 Hooks Personalizados: lógica reutilizable separada de la vista.
 
-6. 🪝 Hooks
+7. 🪝 Hooks
 
 Hooks de React:
 
@@ -85,13 +85,13 @@ Hook Personalizado:
 
 useAutoRedirect: encargado de gestionar la redirección automática en la pantalla inicial.
 
-7. 📦Datos Simulados
+8. 📦Datos Simulados
 
 Se emplean datos mock almacenados en un archivo JavaScript (books.js) que representa el inventario de la tienda.
 
 No se realizan peticiones HTTP ni se consume un backend real.
 
-8. 🗂️ Organización del Proyecto
+9. 🗂️ Organización del Proyecto
    src/
    ├── components/ # Componentes reutilizables de interfaz
    ├── context/ # Contexto global del carrito
@@ -102,13 +102,13 @@ No se realizan peticiones HTTP ni se consume un backend real.
    ├── App.jsx # Definición de rutas
    └── main.jsx # Punto de entrada
 
-9. ▶️ Cómo Ejecutar el Proyecto
+10. ▶️ Cómo Ejecutar el Proyecto
 
 Descargar o clonar el repositorio.
 
 - Instalar dependencias:
 
-npm install
+npm i
 
 - Ejecutar el servidor de desarrollo:
 
@@ -118,7 +118,7 @@ npm run dev
 
 http://localhost:5173
 
-10. Comprobaciones de Funcionamiento
+11. Comprobaciones de Funcionamiento
 
 La aplicación redirige automáticamente desde la vista inicial al catálogo.
 
